@@ -1,9 +1,4 @@
-import React, { useEffect } from "react";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  useLocation,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PrivateLayout from "./views/protected";
 import HomeView from "./views/protected/Home";
 import LoginView from "./views/public/Login";
